@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Home from './components/pages/Home'
-import Dashboard from './components/pages/Dashboard'
-import SampleQuiz from './components/sample-quiz/SampleQuiz'
+import Home from './components/pages/Home';
+import Dashboard from './components/pages/Dashboard';
+import SampleQuiz from './components/sample-quiz/SampleQuiz';
 import SampleQuizResults from './components/sample-quiz/SampleQuizResults';
 
 function App() {
