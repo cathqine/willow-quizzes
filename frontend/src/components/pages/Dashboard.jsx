@@ -11,9 +11,9 @@ const Dashboard = () => {
         <div className='pixel-font-title' style={{ marginTop: "2em" }}>Willow Quizzes!</div>
         <Stack spacing={2}>
           <QuizBox text="T2W1: Sample Quiz" locate="/sample-quiz"></QuizBox>
-          <QuizBox text="T2W1: Which UNSW Building Are You?" locate="/quiz-01"></QuizBox>
-          <QuizBox text="T2W1: What is Your Ideal Tech Role?" locate="/quiz-02"></QuizBox>
-          <QuizBox text="T2W1: Your Career Personality" locate="/quiz-03"></QuizBox>
+          {/* <QuizBox text="T2W1: Which UNSW Building Are You?" locate="/quiz-01"></QuizBox> */}
+          {/* <QuizBox text="T2W1: What is Your Ideal Tech Role?" locate="/quiz-02"></QuizBox> */}
+          {/* <QuizBox text="T2W1: Your Career Personality" locate="/quiz-03"></QuizBox> */}
         </Stack>
       </header>
       <footer className='App-footer'>
