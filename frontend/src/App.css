@@ -1,27 +1,108 @@
+* {
+  font-family: 'Pixel Font';
+}
+
+/* main background for App */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: #e9b269;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 90vh;
+  background-color: #e9b269;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-footer {
+  height: 10vh;
+  background-color: #e9b269;
+}
+
+/* alignment */
+.centre-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+/* typography */
+
+@font-face {
+  font-family: "Pixel Font";
+  src: url(../public/Retro\ Gaming.ttf) format("truetype");
+}
+
+.pixel-font-title {
+  font-family: 'Pixel Font';
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+.pixel-font-subtitle {
+  font-family: 'Pixel Font';
+  font-size: 0.7em;
+}
+
+/* dashboard list formats */
+
+.list-format {
+  background-color: rgb(255, 217, 172);
+  height: '10vh';
+  width: '10vw';
+  padding: 1.5em;
+}
+
+.list-format:hover {
+  background-color: rgb(255, 186, 102);
+}
+
+
+/* quiz related css */
+.quiz-question-title {
+  margin: 0.5em 0 2em 0;
+}
+
+.quiz-answer {
+  font-style: italic;
+  width: 40vw;
+  height: 2em;
+  background-color: #ffd7c5;
+}
+
+.quiz-answer:hover {
+  background-color: #ff9a67;
+}
+
+.quiz-answer-clicked {
+  font-style: italic;
+  width: 40vw;
+  height: 2em;
+  background-color: #ff9a67;
+}
+
+.description-box {
+  margin: 0 1em 0 1em;
+  font-style: italic;
+  background-color: rgb(255, 215, 141);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 .App-link {
@@ -32,6 +113,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
